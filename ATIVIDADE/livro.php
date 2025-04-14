@@ -3,7 +3,7 @@
 class Livro{
     // criar uma propriedade privada (encapsulamento) chamada $livros;
     // Essa propriedade é um array que armazena dados e livros;
-    // Cada aluno é representado por um array associativo com titulo, autor e ano de publicação
+    // Cada livro é representado por um array associativo com titulo, autor e ano de publicação
 private $livros = [
     ['nome' => 'Manual de assassinato para boas garotas', 'autor' => 'Holly Jackson', 'ano' => 2022],
     ['nome' => 'Jantar Secreto', 'autor' => 'Raphael Montes', 'ano'=> 2016],
