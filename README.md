@@ -12,3 +12,4 @@
 
 usuários(navegador) -> Requisição -> controler -> model -> controler -> view -> usuarios.
 
+![images](https://github.com/user-attachments/assets/26aaded8-ba76-4b7a-ae4d-b979ea59a664)
