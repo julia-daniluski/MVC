@@ -39,3 +39,24 @@ Usando o padrão **MVC**:
 6. A **visão** é exibida ao **usuário** com os dados necessários.
 
 > Esse fluxo permite que cada parte do sistema seja desenvolvida e mantida separadamente, promovendo organização e escalabilidade.
+
+
+## EXEMPLO:
+
+O modelo usava de exemplo uma lista de alunos e sua idade ao lado, alterei algumas coisas deixando nome de jogadores do São Paulo FC com sua idade, ficando assim:
+
+![Captura de tela 2025-04-14 155153](https://github.com/user-attachments/assets/d2619aec-8145-4843-85f9-1a3c3a11270f)
+
+## Atividade
+
+A atividade pedia para O sistema deve permitir:
+1.    Listar livros cadastrados.
+2.    Exibir informações de cada livro (Título, Autor, Ano de publicação).
+
+  Ficou assim:
+  
+![Captura de tela 2025-04-14 155141](https://github.com/user-attachments/assets/9ba6613c-9de1-413d-a7c6-1e131119c455)
+
+  
+
+
