@@ -49,7 +49,7 @@ O modelo usava de exemplo uma lista de alunos e sua idade ao lado, alterei algum
 
 ## 📝 Atividade
 
-A atividade pedia para O sistema deve permitir:
+A atividade pedia para o sistema permitir:
 1.    Listar livros cadastrados.
 2.    Exibir informações de cada livro (Título, Autor, Ano de publicação).
 
