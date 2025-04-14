@@ -57,6 +57,13 @@ A atividade pedia para O sistema deve permitir:
   
 ![Captura de tela 2025-04-14 155141](https://github.com/user-attachments/assets/9ba6613c-9de1-413d-a7c6-1e131119c455)
 
+Após a implementação de HTML e CSS, a lista ficou assim:
+
+
+https://github.com/user-attachments/assets/ddbccaff-1f42-4e25-8e30-95f0ba3efad1
+
+
+
   
 
 
