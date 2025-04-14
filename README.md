@@ -1,19 +1,36 @@
-# MVC
- 
-## O que é MVC?
+# 🧠 Padrão MVC
 
-* M: Model
-* V: View
-* C: Controler
+## 📌 O que é MVC?
 
-MVC em português: modelo-visão-controlador é um padrão de arquitetura, usado para organizar o código de forma clara, separando a lógica em 3 partes.
+**MVC** (Model-View-Controller), ou em português **Modelo-Visão-Controlador**, é um padrão de arquitetura de software que ajuda a organizar o código em três partes distintas:
 
-## Esquema MVC
+- **🧱 Model (Modelo):** Lida com os dados e regras de negócio.
+- **🖼️ View (Visão):** Responsável pela interface com o usuário.
+- **🎮 Controller (Controlador):** Intermedia a comunicação entre Model e View.
 
-usuários(navegador) -> Requisição -> controler -> model -> controler -> view -> usuarios.
+Esse padrão promove uma separação clara de responsabilidades, tornando o código mais limpo, modular e fácil de manter.
 
-![images](https://github.com/user-attachments/assets/26aaded8-ba76-4b7a-ae4d-b979ea59a664)
+---
 
-Usando esse padrão, as solicitações de usuário são encaminhadas para um Controlador, que é responsável por trabalhar com o Modelo para executar as ações do usuário e/ou recuperar os resultados de consultas. O Controlador escolhe a Exibição a ser exibida para o usuário e fornece-a com os dados do Modelo solicitados. Assim, a página principal pode exibir o que é necessário sem deixar o código dela extenso.
+## 🧭 Esquema MVC
 
-Confira mais em: https://learn.microsoft.com/pt-br/aspnet/core/mvc/overview?view=aspnetcore-9.0
+A[Usuário (Navegador)] --> B[Requisição]
+B --> C[Controller]
+C --> D[Model]
+D --> C
+C --> E[View]
+E --> A
+
+
+## 🧩 Como funciona?
+
+Usando o padrão **MVC**:
+
+1. O **usuário** faz uma requisição através da interface.
+2. O **controlador (Controller)** recebe essa solicitação.
+3. O controlador interage com o **modelo (Model)** para processar dados ou regras de negócio.
+4. O **modelo** retorna os dados ao controlador.
+5. O controlador seleciona uma **visão (View)** apropriada.
+6. A **visão** é exibida ao **usuário** com os dados necessários.
+
+> Esse fluxo permite que cada parte do sistema seja desenvolvida e mantida separadamente, promovendo organização e escalabilidade.
