@@ -3,7 +3,7 @@ require_once 'livro.php';
 
 // Cria instância do modelo
 $model = new Livro();
-// Pega os livros
+// Pega os livros do outro arquivo
 $livros = $model->listarlivros();
 ?>
 
