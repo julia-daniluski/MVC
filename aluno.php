@@ -9,4 +9,13 @@ private $alunos = [
     ['nome' => 'Lucas', 'idade' => 17],
     ['nome' => 'Oscar', 'idade' => 18]
 ];
+
+// Define um método púnlico chamado listarAlunos.
+// Esse método serve para retornar o conteúdo do array $alunos
+
+public function listarAlunos(){
+    return $this->alunos;
 }
+
+}
+?>
