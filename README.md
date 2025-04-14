@@ -41,13 +41,13 @@ Usando o padrão **MVC**:
 > Esse fluxo permite que cada parte do sistema seja desenvolvida e mantida separadamente, promovendo organização e escalabilidade.
 
 
-## EXEMPLO:
+## 📸 Exemplo:
 
 O modelo usava de exemplo uma lista de alunos e sua idade ao lado, alterei algumas coisas deixando nome de jogadores do São Paulo FC com sua idade, ficando assim:
 
 ![Captura de tela 2025-04-14 155153](https://github.com/user-attachments/assets/d2619aec-8145-4843-85f9-1a3c3a11270f)
 
-## Atividade
+## 📝 Atividade
 
 A atividade pedia para O sistema deve permitir:
 1.    Listar livros cadastrados.
