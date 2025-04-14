@@ -15,10 +15,15 @@ Esse padrão promove uma separação clara de responsabilidades, tornando o cód
 ## 🧭 Esquema MVC
 
 A[Usuário (Navegador)] --> B[Requisição]
+
 B --> C[Controller]
+
 C --> D[Model]
+
 D --> C
+
 C --> E[View]
+
 E --> A
 
 
